@@ -13,3 +13,13 @@ function checkPalindrome(word) {
 }
 
 console.log(checkPalindrome(word))
+
+
+// Optimised Solution from AI
+
+function checkPalindromee(word) {
+    const reversedWord = word.split('').reverse().join('');
+    return reversedWord === word;
+}
+
+console.log(checkPalindromee(word));
