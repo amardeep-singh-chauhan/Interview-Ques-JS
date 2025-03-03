@@ -31,3 +31,21 @@ function removeDuplicatesFromString (str){
 }
 
 console.log(removeDuplicatesFromString(str))
+
+
+// Optimised Solution from AI
+
+function removeDuplicatesFromStringg(str) {
+    const seen = new Set();
+    const uniqueWords = str.split(' ').filter(word => {
+        if (!seen.has(word)) {
+            seen.add(word);
+            return true;
+        }
+        return false;
+    });
+    
+    return uniqueWords.join(' ');
+}
+
+console.log(removeDuplicatesFromStringg(str));
