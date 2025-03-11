@@ -1,4 +1,4 @@
-# Interview-Ques-JS (Optimized Solution from AI also)
+# Interview-Ques-JS (Includes Optimized Solution from AI)
 
 This repo contains the solution for these interview questions.
 
