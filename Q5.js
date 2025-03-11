@@ -2,16 +2,16 @@
 
 let str = 'aabbccd'
 
-function countOcc (str) {
+function countOcc(str) {
     let countObj = {};
-    for(i=0;i<str.length;i++){
-        if(Object.keys(countObj).includes(str[i])){
+    for (i = 0; i < str.length; i++) {
+        if (Object.keys(countObj).includes(str[i])) {
             countObj[str[i]]++
-        }else{
+        } else {
             countObj[str[i]] = 1
         }
     }
-    
+
     return countObj;
 }
 
@@ -26,7 +26,7 @@ function countOccc(str) {
     for (let char of str) {
         countObj[char] = (countObj[char] || 0) + 1;
     }
-    
+
     return countObj;
 }
 
